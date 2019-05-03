@@ -1,6 +1,6 @@
 node {
     stage('init'){
-        git 'https://github.com/mrmartywu/devops-lab-sampl.git'
+        git 'https://github.com/mrmartywu/devops-lab-sample.git'
     }
     stage('build'){
         sh 'cd sample/pipeline-as-code && mvn package'
